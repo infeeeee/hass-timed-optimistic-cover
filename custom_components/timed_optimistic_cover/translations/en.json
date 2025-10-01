@@ -1,0 +1,48 @@
+{
+  "title": {
+    "timed_optimistic_cover": "Timed Optimistic Cover"
+  },
+  "entity":{
+    "cover":{
+      "timed_optimistic_cover":{
+        "name": "Timed {cover_name}"
+      }
+    }
+  },
+
+  "config": {
+    "step": {
+      "user": {
+        "title": "New Timed Optimistic Cover",
+        "description": "Select an existing optimistic cover, and set its parameters ",
+        "data": {
+          "cover_entity_id": "Optimistic Cover Entity",
+          "hide_cover_entity": "Hide Optimistic Cover",
+          "time_open": "Time to open the cover",
+          "time_close": "Time to close the cover",
+          "send_stop_at_ends": "Send stop command at end",
+          "always_confident": "Always confident"
+        },
+        "data_description": {
+          "cover_entity_id": "Cover without known position",
+          "hide_cover_entity": "It will be still accessible from settings",
+          "send_stop_at_ends": "If the stop command should be sent when reaching the ends",
+          "always_confident": "Hide impossible open close commands at ends "
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Edit Timed Optimistic Cover options",
+        "data": {
+          "time_open": "Time to open the cover",
+          "time_close": "Time to close the cover",
+          "send_stop_at_ends": "Send stop command at end",
+          "always_confident": "Always confident"
+        }
+      }
+    }
+  }
+}

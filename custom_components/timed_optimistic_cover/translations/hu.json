@@ -1,0 +1,48 @@
+{
+  "title": {
+    "timed_optimistic_cover": "Időzített Optimista Redőny"
+  },
+  "entity": {
+    "cover": {
+      "timed_optimistic_cover": {
+        "name": "Időzített {cover_name}"
+      }
+    }
+  },
+
+  "config": {
+    "step": {
+      "user": {
+        "title": "Új Időzített Optimista Redőny",
+        "description": "Válasszon ki egy meglévő optimista redőnyt és adja meg a paramétereit",
+        "data": {
+          "cover_entity_id": "Optimista Redőny Entitás",
+          "hide_cover_entity": "Optimista Redőny elrejtése",
+          "time_open": "Redőny kinyitásához szükséges idő",
+          "time_close": "Redőny becsukásához szükséges idő",
+          "send_stop_at_ends": "Leállítás parancs küldése végpontokon",
+          "always_confident": "Mindig magabiztos"
+        },
+        "data_description": {
+          "cover_entity_id": "Redőny, aminek a pozíciója nem ismert",
+          "hide_cover_entity": "A redőny továbbra is elérhető lesz a beállításokban",
+          "send_stop_at_ends": "Ha végpontok elérésekor is el kell küldeni a leállítás parancsot",
+          "always_confident": "Végpontokon az ellenkező irányú parancsok elrejtése"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Időzített Optimista Redőny beállításai",
+        "data": {
+          "time_open": "Redőny kinyitásához szükséges idő",
+          "time_close": "Redőny becsukásához szükséges idő",
+          "send_stop_at_ends": "Leállítás parancs küldése végpontokon",
+          "always_confident": "Mindig magabiztos"
+        }
+      }
+    }
+  }
+}

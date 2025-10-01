@@ -1,0 +1,17 @@
+{
+  "domain": "timed_optimistic_cover",
+  "name": "Timed Optimistic Cover",
+  "codeowners": [
+    "@davidramosweb",
+    "@nagyrobi",
+    "@Alfiegerner",
+    "@duhow",
+    "@infeeeee"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/infeeeee/hass-cover-timer",
+  "integration_type": "device",
+  "iot_class": "assumed_state",
+  "issue_tracker": "https://github.com/infeeeee/hass-cover-timer/issues",
+  "version": "0.0.1"
+}
