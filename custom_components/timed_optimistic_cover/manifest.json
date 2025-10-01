@@ -9,9 +9,9 @@
     "@infeeeee"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/infeeeee/hass-cover-timer",
+  "documentation": "https://github.com/infeeeee/hass-timed-optimistic-cover",
   "integration_type": "device",
   "iot_class": "assumed_state",
-  "issue_tracker": "https://github.com/infeeeee/hass-cover-timer/issues",
+  "issue_tracker": "https://github.com/infeeeee/hass-timed-optimistic-cover/issues",
   "version": "0.0.1"
 }

@@ -23,7 +23,9 @@ Soon...
 
 ### Cover from script, button or switch
 
-Create a [Template Cover](https://www.home-assistant.io/integrations/template#cover), define Open, Close and Stop actions from your scripts, buttons or switches, then you can select it as an Optimistic Cover
+Create a [Template Cover](https://www.home-assistant.io/integrations/template#cover), define Open, Close and Stop actions from your scripts, buttons or switches, then you can select it as an Optimistic Cover.
+
+You can leave the `state` variable empty, as an empty string: `""`
 
 ## Credits
 
