@@ -15,6 +15,10 @@ Soon...
 
 ## Usage
 
+[![Open your Home Assistant instance and add this integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=timed_optimistic_cover)
+
+Or...
+
 1. Go to Settings -> Devices & Services -> Add integration
 2. Search for "Timed Optimistic Cover", select
 3. Set the new timed cover's settings, then Submit, Finish
