@@ -23,8 +23,10 @@ class TravelCalculator:
             self.current_position = self.current_travel.current_position
             self.current_travel = None
 
-    def get_relative_direction(self, target_position):
+    def get_relative_direction(self, target_position) -> int:
         rel_pos = target_position - self.current_position
+        if rel_pos == 0:
+            return 0
         return rel_pos / abs(rel_pos)
 
     @property
